@@ -86,7 +86,7 @@ function Detail() {
             {displayData('Quote Currency', datatable.quoteCurrency)}
             {displayData('Base Currency Id', datatable.baseCurrencyId)}
             {displayData('Quote Currency Id', datatable.quoteCurrencyId)}
-            {displayData('Is Active', datatable.isActive)}
+            {displayData('Is Active', datatable.isActive.toString())}
 
         </Card>
     </div>
