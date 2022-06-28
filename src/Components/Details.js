@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { MDBDataTableV5 } from 'mdbreact';
 import apiCalls from './apiCalls';
-import {Container,Row,Col,Card,Image,Button,Form, Spinner} from 'react-bootstrap';
+import {Row,Col,Card,Spinner} from 'react-bootstrap';
 
 
 function Detail() {
